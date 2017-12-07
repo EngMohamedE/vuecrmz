@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/crmzz-vue.iml" filepath="$PROJECT_DIR$/.idea/crmzz-vue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../crmzz_webservice/.idea/crmzz_webservice.iml" filepath="$PROJECT_DIR$/../crmzz_webservice/.idea/crmzz_webservice.iml" />
+    </modules>
+  </component>
+</project>
