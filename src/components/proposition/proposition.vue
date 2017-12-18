@@ -166,25 +166,26 @@
            </div>
            <div class="panel-body">
              <form class="social-form" v-on:submit.prevent="save">
+               <p v-if="errorhandle" class="errorhandle">Updated Sucessfuly</p>
                <ul class="list-proposition">
                  <li class="list-prep">
                    <div class="form-group">
                      <label>Proposition</label>
-                     <textarea rows="6" v-model="proposition.prop1"  class="form-control textarea-message"  placeholder="Proposition"></textarea>
+                     <textarea rows="6" v-model="proposition.proposition1"  class="form-control textarea-message"  placeholder="Proposition"></textarea>
                    </div>
                  </li>
 
                  <li class="list-prep" >
                    <div class="form-group">
                      <label>Proposition</label>
-                     <textarea rows="6" v-model="proposition.prop2"  class="form-control textarea-message" placeholder="Proposition"></textarea>
+                     <textarea rows="6" v-model="proposition.proposition2"  class="form-control textarea-message" placeholder="Proposition"></textarea>
                    </div>
                  </li>
 
                  <li class="list-prep" >
                    <div class="form-group">
                      <label>Proposition</label>
-                     <textarea rows="6" v-model="proposition.prop3"  class="form-control textarea-message" placeholder="Proposition"></textarea>
+                     <textarea rows="6" v-model="proposition.proposition3"  class="form-control textarea-message" placeholder="Proposition"></textarea>
                    </div>
                  </li>
 
