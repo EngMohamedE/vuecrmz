@@ -99,15 +99,7 @@
             <a ><i class="pe-7s-speaker"></i>Send Blast</a>
           </li>
           <li>
-            <a  data-toggle="collapse" aria-expanded="false">
-                            <i class="pe-7s-cash"></i>Transactions<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
-                        </a>
-            <ul id="transactions" class="nav nav-second collapse">
-              <li>
-                <a ><i class="pe-7s-like"></i>Donations</a>
-              </li>
-              <li><a ><i class="pe-7s-cash"></i>Buy Credit </a></li>
-            </ul>
+            <a><router-link to="/payment"><i class="pe-7s-cash"></i>Payment</router-link></a>
           </li>
           <li>
             <a href="#Settings" data-toggle="collapse" aria-expanded="false">

@@ -12,8 +12,23 @@ import signUp from '@/components/signup/signup.vue'
 import companyCreate from '@/components/company-create/company-create.vue'
 import Profile from '@/components/profile/profile.vue'
 import Logout from '@/components/logout/logout.vue'
-import VueLocalStorage from 'vue-ls';
+//Added by  Mohamed mahmoud
+import VueStripeCheckout from 'vue-stripe-checkout'
+import payment from '@/components/payment/payment.vue'
 
+
+Vue.component('stripe-checkout', VueStripeCheckout);
+import VueLocalStorage from 'vue-ls';
+const options2 = {
+    key: 'pk_test_3Ip1tIA7kHoAfgTZ74VIQsHu',
+    image: 'https://cdn.meme.am/images/100x100/15882140.jpg',
+    locale: 'auto',
+    currency: 'PHP',
+    billingAddress: true,
+    panelLabel: 'Subscribe {{amount}}'
+}
+
+Vue.use(VueStripeCheckout, options2)
 var options = {
   namespace: 'vuejs__'
 };
@@ -35,7 +50,8 @@ export default new Router({
       path: '/proposition',
       name: 'proposition',
       component: proposition
-    }, {
+    },
+     {
       path: '/import-contacts',
       name: 'import-contacts',
       component: ImportContacts
@@ -72,6 +88,12 @@ export default new Router({
       name: 'logout',
       component: Logout
     }
+    //Added by  Mohamed Mahmoud
+    ,{
+          path: '/payment',
+          name: 'payment',
+          component: payment
+      },
   ],
   mode: 'history'
 })
