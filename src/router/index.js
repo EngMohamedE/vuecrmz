@@ -14,8 +14,9 @@ import Profile from '@/components/profile/profile.vue'
 import Logout from '@/components/logout/logout.vue'
 //Added by  Mohamed mahmoud
 import VueStripeCheckout from 'vue-stripe-checkout'
-import payment from '@/components/payment/payment.vue'
 
+import payment from '@/components/payment/payment.vue'
+import GSignInButton from 'vue-google-signin-button'
 
 Vue.component('stripe-checkout', VueStripeCheckout);
 import VueLocalStorage from 'vue-ls';
@@ -29,6 +30,7 @@ const options2 = {
 }
 
 Vue.use(VueStripeCheckout, options2)
+Vue.use(GSignInButton)
 var options = {
   namespace: 'vuejs__'
 };

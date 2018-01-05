@@ -16,6 +16,7 @@
                          </a>
           </div>
         </li>
+
         <li class="list-item">
           <a class="list-link" href="#"><i class="material-icons">home</i> Home</a>
         </li>
@@ -146,7 +147,9 @@
       <!-- Content Body -->
       <div class="row">
 
-        <div class="col-md-12 ">
+          <button v-on:click="auth">GET CONTACTS FEED</button>
+
+          <div class="col-md-12 ">
           <div class="panel panel-filled">
             <div class="panel-heading p-h">
               <i class="icon-su-title pe-7s-mail"></i>Sales Force Contacts
@@ -173,94 +176,27 @@
                       </th>
                     </tr>
                   </thead>
-                  <tbody>
-                    <tr>
+                    <tbody>
+                  <tr v-for="item in contact">
                       <td class="text-left">
-                        <img alt="image" class="img-rounded image-md" src="static/images/founder-02.jpg">
+                        <img alt="image" class="img-rounded image-md" v-bind:src="item.image">
+
+                    </td>
+                      <td class="text-left">
+                          {{ item.Name}}
                       </td>
                       <td class="text-left">
-                        Sara Mohamed
+                          {{ item.email}}
                       </td>
                       <td class="text-left">
-                        example@example.com
-                      </td>
-                      <td class="text-left">
-                        010200200200
+                          {{ item.phone}}
                       </td>
 
                       <td class="text-center">
                         <div class="checkbox checkbox-warning">
-                          <input id="checkbox1" type="checkbox" class="styled">
-                          <label for="checkbox1">
+                          <input  :id="item.ID" :value="item.ID"   v-model="checkedNames"   type="checkbox" class="styled">
+                          <label :for="item.ID">
 
-                                                 </label>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-left">
-                        <img alt="image" class="img-rounded image-md" src="static/images/founder-01.jpg">
-                      </td>
-                      <td class="text-left">
-                        Mahmoud Ahmed
-                      </td>
-                      <td class="text-left">
-                        example@example.com
-                      </td>
-                      <td class="text-left">
-                        010200200200
-                      </td>
-
-                      <td class="text-center">
-                        <div class="checkbox checkbox-warning">
-                          <input id="checkbox2" type="checkbox" class="styled">
-                          <label for="checkbox2">
-
-                                                 </label>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-left">
-                        <img alt="image" class="img-rounded image-md" src="static/images/founder-02.jpg">
-                      </td>
-                      <td class="text-left">
-                        Sara Mohamed
-                      </td>
-                      <td class="text-left">
-                        example@example.com
-                      </td>
-                      <td class="text-left">
-                        010200200200
-                      </td>
-
-                      <td class="text-center">
-                        <div class="checkbox checkbox-warning">
-                          <input id="checkbox3" type="checkbox" class="styled">
-                          <label for="checkbox3">
-
-                                                 </label>
-                        </div>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text-left">
-                        <img alt="image" class="img-rounded image-md" src="static/images/founder-03.jpg">
-                      </td>
-                      <td class="text-left">
-                        Mahmoud Ahmed
-                      </td>
-                      <td class="text-left">
-                        example@example.com
-                      </td>
-                      <td class="text-left">
-                        010200200200
-                      </td>
-
-                      <td class="text-center">
-                        <div class="checkbox checkbox-warning">
-                          <input id="checkbox4" type="checkbox" class="styled">
-                          <label for="checkbox4">
                                                  </label>
                         </div>
                       </td>
@@ -289,28 +225,25 @@
           <h4 class="modal-title">Select List </h4>
         </div>
         <div class="modal-body">
-          <form>
+          <form  v-on:submit.prevent="addlist">
             <div class="form-group form-select-list">
-              <input type="text" class="form-control" id="exampleInputLinkedin" placeholder="Create New List">
-              <button type="button" class="btn btn-select-list btn-default"><span class="pe-7s-plus"></span></button>
+              <input type="text"  v-model="Namelist.listname" class="form-control"  placeholder="Create New List">
+              <button type="submit"    class="btn btn-select-list btn-default"><span class="pe-7s-plus"></span></button>
               <div class="clearfix"></div>
             </div>
           </form>
+
           <ul class="list-li">
-            <li>
-              <button type="button" class="btn">list one</button>
+            <li v-for="list in groupdata" >
+                <input  type="radio" v-bind:value="list.ID" v-model="selected" >
+                <label>{{ list.Name}}</label>
             </li>
-            <li>
-              <button type="button" class="btn">list Two</button>
-            </li>
-            <li>
-              <button type="button" class="btn">list Three</button>
-            </li>
+
           </ul>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-accent ">Save changes</button>
+          <button type="button"  class="btn-default" data-dismiss="modal">Close</button>
+          <button type="button"  @click="addtolist" class="btn btn-accent ">Save changes</button>
         </div>
       </div>
     </div>
