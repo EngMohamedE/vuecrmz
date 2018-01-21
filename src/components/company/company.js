@@ -1,9 +1,11 @@
 import {Http} from '@/http-config.js'
+import router from "../../router";
 
 export default {
   name : 'company',
   data() {
     return {
+        errorhandle:"",
       company: {
         "id": -1,
         "brand_name": "",
@@ -38,44 +40,57 @@ export default {
     }
   },
   created : function() {
-    Http.get('api/founders/company?api_token='+this.$ls.get('token')).then(successResponse => {
-      console.log("Success ", successResponse.data)
-      this.company = successResponse.data.data
-    }).catch(errorResponse => {
-      console.log("Error ", errorResponse)
-    });
-    Http.get('api/founders/profile?api_token='+this.$ls.get('token')).then(successResponse => {
-      console.log("Success ", successResponse.data.founder)
-      this.founder = successResponse.data.founder
-    }).catch(errorResponse => {
-      console.log("Error ", errorResponse)
-    });
+      if(this.$ls.get('token')=='')
+      {
+          router.push({path: '/login'})
 
-    //get video created by  mohamed mahmoud
-      Http.get('api/founders/video?api_token='+this.$ls.get('token')).then(successResponse => {
-          console.log("Success ", successResponse.data.video)
-          this.video = successResponse.data.video;
-          var  token  =successResponse.data.video.video_token;
-          var embedding = ZiggeoApi.Embed.embed(
-              "#player_placeholder", {
-                  width: 320,
-                  height: 180,
-                  video: token
-              });
-      }).catch(errorResponse => {
-          console.log("Error ", errorResponse)
-      });
+      }
+      else {
+          Http.get('api/founders/company?api_token=' + this.$ls.get('token')).then(successResponse => {
+              console.log("Success ", successResponse.data)
+              this.company = successResponse.data.data
+          }).catch(errorResponse => {
+              console.log("Error ", errorResponse)
+          });
+          Http.get('api/founders/profile?api_token=' + this.$ls.get('token')).then(successResponse => {
+              console.log("Success ", successResponse.data.founder)
+              this.founder = successResponse.data.founder
+          }).catch(errorResponse => {
+              console.log("Error ", errorResponse)
+          });
+
+          //get video created by  mohamed mahmoud
+          Http.get('api/founders/video?api_token=' + this.$ls.get('token')).then(successResponse => {
+              console.log("Success ", successResponse.data.video)
+              this.video = successResponse.data.video;
+              var token = successResponse.data.video.video_token;
+              var embedding = ZiggeoApi.Embed.embed(
+                  "#player_placeholder", {
+                      width: 320,
+                      height: 180,
+                      video: token
+                  });
+          }).catch(errorResponse => {
+              console.log("Error ", errorResponse)
+          });
+      }
   },
   methods : {
     updateCompany: function(event) {
+        event.preventDefault();
+        if (this.errors.all().length > 0) {
+            this.errorhandle = "Validation error";
+        }
+        else{
       this.company['company_id'] = this.company['id']
       this.company['api_token'] = this.$ls.get('token')
       console.log(this.company);
       Http.patch('api/founders/updatecompany?api_token='+this.$ls.get('token'), this.company).then(successResponse => {
-        console.log("Success ", successResponse.data)
+          this.errorhandle = "Updated Sucessfuly"
+          console.log("Success ", successResponse.data)
       }).catch(errorResponse => {
         console.log("Error ", errorResponse)
-      });
+      });}
     },
     updateFounder: function(event){
       Http.patch('api/founders/updateprofile', this.founder, {

@@ -89,14 +89,19 @@
 
           </li>
           <li>
+             <router-link to="/gmail-contacts"><i class="pe-7s-id"></i> Contacts</router-link>
+
+          </li>
+          <li>
              <router-link to="/crm-video"><i class="pe-7s-note2"></i>CRM-Video</router-link>
 
           </li>
           <li>
-            <a ><i class="pe-7s-menu"></i>Manage Lists</a>
+            <router-link to="/Manage-list"><i class="pe-7s-menu"></i>Manage Lists</router-link>
+
           </li>
           <li>
-            <a ><i class="pe-7s-speaker"></i>Send Blast</a>
+            <router-link to="/blast"><i class="pe-7s-speaker"></i>Send Blast</router-link>
           </li>
           <li>
             <a><router-link to="/payment"><i class="pe-7s-cash"></i>Payment</router-link></a>
@@ -148,26 +153,35 @@
               <div class="panel-body">
                 <form v-on:submit.prevent="updateCompany">
                   <!-- Photo Company -->
+                  <p v-model="errorhandle" class="errorhandle">{{errorhandle}}</p>
 
                   <div class="form-group col-sm-12 col-md-6">
-                    <label for="exampleInputBrandName">Brand name</label>
-                    <input type="text"  v-model="company.brand_name"  class="form-control" id="exampleInputBrandName" placeholder="Brand Name">
+                    <label for="exampleInputBrandName">Brand name   </label>
+                    <span v-show="errors.has('Brand name')" class="text-danger">{{ errors.first('Brand name') }}</span>
+                    <input type="text" name="Brand name" v-validate="'required'"  v-model="company.brand_name"  class="form-control" id="exampleInputBrandName" placeholder="Brand Name">
                   </div>
                   <div class="form-group col-sm-12 col-md-6">
                     <label for="exampleInputIndustry">Industry</label>
-                    <input type="text" v-model="company.inudustry"  class="form-control" id="exampleInputIndustry" placeholder="Industry">
+                    <span v-show="errors.has('Industry')" class="text-danger">{{ errors.first('Industry') }}</span>
+                    <input type="text" v-model="company.inudustry" name="Industry" v-validate="'required'"  class="form-control" id="exampleInputIndustry" placeholder="Industry">
                   </div>
                   <div class="form-group col-sm-12 col-md-6">
                     <label for="exampleInputEmail">Email address</label>
-                    <input type="email" v-model="company.email"   class="form-control" id="exampleInputEmail" placeholder="Email">
+                    <span v-show="errors.has('email')" class="text-danger">{{ errors.first('email') }}</span>
+                    <input  name="email"  v-validate="'required|email'" v-model="company.email"   class="form-control" id="exampleInputEmail" placeholder="Email">
                   </div>
+
+
+
                   <div class="form-group col-sm-12 col-md-6">
                     <label for="exampleInputWebsite">Website</label>
-                    <input type="text"  v-model="company.website"  class="form-control" id="exampleInputWebsite" placeholder="Website">
+                    <span v-show="errors.has('Website')" class="text-danger">{{ errors.first('Website') }}</span>
+                    <input type="text" name="Website"  v-validate="'url'" v-model="company.website"  class="form-control" id="exampleInputWebsite" placeholder="Website">
                   </div>
                   <div class="form-group col-sm-12 col-md-6">
                     <label for="exampleInputPhone">Phone</label>
-                    <input type="text"  v-model="company.phone"  class="form-control" id="exampleInputPhone" placeholder="Phone">
+                    <span v-show="errors.has('Phone')" class="text-danger">{{ errors.first('Phone') }}</span>
+                    <input type="text" name="Phone" v-validate="'numeric'" v-model="company.phone"  class="form-control" id="exampleInputPhone" placeholder="Phone">
                   </div>
                   <div class="form-group col-sm-12 col-md-6">
                     <label for="exampleInputAddress">Address</label>
@@ -193,11 +207,14 @@
                   </div>
                   <div class="form-group col-sm-12 col-md-6">
                     <label for="exampleInputZipCode">Zip code</label>
-                    <input type="text"  v-model="company.zip"  class="form-control" id="exampleInputZipCode" placeholder="Zip Code">
+                    <span v-show="errors.has('Zip code')" class="text-danger">{{ errors.first('Zip code') }}</span>
+
+                    <input type="text" name="Zip code" v-model="company.zip" v-validate="'numeric'"  class="form-control" id="exampleInputZipCode" placeholder="Zip Code">
                   </div>
                   <div class="form-group col-sm-12 col-md-6">
                     <label for="exampleInputEstablishedDate">Established date</label>
-                    <input type="text"  v-model="company.established_date"  class="form-control" id="exampleInputEstablishedDate" placeholder="Established Date">
+                    <span v-show="errors.has('Date')" class="text-danger">{{ errors.first('Date') }}</span>
+                    <input type="text"  name="Date" v-validate="'date_format:YYYY-MM-DD'" v-model="company.established_date"  class="form-control" id="exampleInputEstablishedDate" placeholder="Established Date">
                   </div>
                   <div class="form-group col-sm-12 col-md-6">
                     <label for="exampleInputEstablishedDate">About Company</label>

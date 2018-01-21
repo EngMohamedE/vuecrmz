@@ -93,7 +93,7 @@ fieldset[disabled] .btn-accent.focus {
   background-color: transparent;
   border-color: #f6a821;
     text-transform: uppercase;
-    
+
 }
 .btn{
     font-size: 13px;
@@ -2860,7 +2860,7 @@ fieldset[disabled] .form-control {
 
 .navigation-nav .luna-nav.nav li > a{
     border-bottom: 1px solid rgba(246,168,33,.3);
-    
+
 }
 
 
@@ -2959,7 +2959,7 @@ fieldset[disabled] .form-control {
 }
 .table-data .btn-email{
     font-size: 16px;
-    
+
 }
 .table-data .btn-email:hover{
     color: #fff;
@@ -2988,7 +2988,7 @@ fieldset[disabled] .form-control {
     border-radius: 50%;
     overflow: hidden;
     display: block;
-    
+
 }
 .img-video img{
     width: 100%;
@@ -3020,7 +3020,7 @@ fieldset[disabled] .form-control {
 }
 .btn-insert{
     width: 90px;
-    
+
 }*/
 .add-faq,.add-proposition{
     width: 35px;
@@ -3049,7 +3049,7 @@ fieldset[disabled] .form-control {
     padding-bottom: 20px;
     margin-left: 0;
     padding: 10px;
-   
+
 }
 
 .form-faq .form-group{
@@ -3224,12 +3224,12 @@ textarea{
 
 .inbox a{
     font-size: 13px;
-    padding: 4px 8px; 
+    padding: 4px 8px;
     margin: 0 3px;
 }
 
 .send-blast-active .active a{
-    color: #f6a821; 
+    color: #f6a821;
 }
 
 .pr-1{
@@ -3277,7 +3277,7 @@ textarea{
     font-size: 16px;
     border: 0;
 }
-.btn.active.focus, .btn.active:focus, .btn.focus, 
+.btn.active.focus, .btn.active:focus, .btn.focus,
 .btn:active.focus, .btn:active:focus, .btn:focus{
     color: #fff;
 }
@@ -3362,7 +3362,7 @@ button,a{
 
 
 .lists-manage-table{
-    
+
 }
 
 .lists-manage-table h5{
@@ -3403,7 +3403,7 @@ button,a{
 .total-c{
     margin-bottom: 10px;
     color: #fff;
-    
+
 }
 .total-c h5{
     border-bottom: 1px solid #888;
@@ -3418,7 +3418,7 @@ button,a{
     margin-right: 10px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    
+
 }
 .errorhandle{
   color: #f6a821;

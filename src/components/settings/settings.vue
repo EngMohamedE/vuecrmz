@@ -78,47 +78,37 @@
           <router-link to="/profile"><i class="pe-7s-user"></i>Profile</router-link>
 
         </li>
-        <li>
+        <li class="active">
           <router-link to="/company"><i class="pe-7s-flag"></i>Company</router-link>
 
         </li>
         <li >
           <router-link to="/proposition"><i class="pe-7s-diamond"></i>Proposition</router-link>
         </li>
-        <li >
-           <router-link to="/import-contacts"><i class="pe-7s-id"></i>Import Contacts</router-link>
+        <li>
+          <router-link to="/import-contacts"><i class="pe-7s-id"></i>Import Contacts</router-link>
 
         </li>
         <li>
-           <router-link to="/crm-video"><i class="pe-7s-note2"></i>CRM-Video</router-link>
+          <router-link to="/gmail-contacts"><i class="pe-7s-id"></i> Contacts</router-link>
 
         </li>
         <li>
-          <a ><i class="pe-7s-menu"></i>Manage Lists</a>
+          <router-link to="/crm-video"><i class="pe-7s-note2"></i>CRM-Video</router-link>
+
         </li>
         <li>
-          <a ><i class="pe-7s-speaker"></i>Send Blast</a>
+          <router-link to="/Manage-list"><i class="pe-7s-menu"></i>Manage Lists</router-link>
+
         </li>
         <li>
-          <a  data-toggle="collapse" aria-expanded="false">
-                          <i class="pe-7s-cash"></i>Transactions<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
-                      </a>
-          <ul id="transactions" class="nav nav-second collapse">
-            <li>
-              <a ><i class="pe-7s-like"></i>Donations</a>
-            </li>
-            <li><a ><i class="pe-7s-cash"></i>Buy Credit </a></li>
-          </ul>
+          <router-link to="/blast"><i class="pe-7s-speaker"></i>Send Blast</router-link>
         </li>
-        <li class="active">
-          <a href="#Settings" data-toggle="collapse" aria-expanded="false">
-                          <i class="pe-7s-config"></i>Settings<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
-                      </a>
-          <ul id="Settings" class="nav nav-second collapse">
-
-             <router-link to="/settings"><i class="pe-7s-help1"></i>Default</router-link>
-
-          </ul>
+        <li>
+          <router-link to="/payment"><i class="pe-7s-cash"></i>Payment</router-link>
+        </li>
+        <li>
+          <router-link to="/settings"><i class="pe-7s-help1"></i>Default</router-link>
         </li>
       </ul>
     </nav>

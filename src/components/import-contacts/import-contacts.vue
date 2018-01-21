@@ -49,79 +49,69 @@
 
  <!-- Start Aside -->
  <aside class="navigation navigation-nav">
-   <nav>
-     <ul class="nav luna-nav">
-       <li class="clearfix">
-         <div class="form-group col-xs-12 ">
-           <div class="example">
-             <div class="example__left">
-               <div id="companypic" class="userpic" style="background-image: url(static/images/avatar.jpg);">
-                 <div class="js-preview userpic__preview"></div>
-                 <div class="btn js-fileapi-wrapper">
-                   <div class="js-browse">
-                     <span class="btn-txt"><i class="pe-7s-photo"></i></span>
-                     <input type="file" name="filedata" />
-                   </div>
-                   <div class="js-upload" style="display: none;">
-                     <div class="progress progress-success">
-                       <div class="js-progress bar"></div>
+     <nav>
+         <ul class="nav luna-nav">
+             <li class="clearfix">
+                 <div class="form-group col-xs-12 ">
+                     <div class="example">
+                         <div class="example__left">
+                             <div id="companypic" class="userpic" style="background-image: url(static/images/avatar.jpg);">
+                                 <div class="js-preview userpic__preview"></div>
+                                 <div class="btn js-fileapi-wrapper">
+                                     <div class="js-browse">
+                                         <span class="btn-txt"><i class="pe-7s-photo"></i></span>
+                                         <input type="file" name="filedata" />
+                                     </div>
+                                     <div class="js-upload" style="display: none;">
+                                         <div class="progress progress-success">
+                                             <div class="js-progress bar"></div>
+                                         </div>
+                                         <span class="btn-txt">Uploading</span>
+                                     </div>
+                                 </div>
+                             </div>
+                         </div>
                      </div>
-                     <span class="btn-txt">Uploading</span>
-                   </div>
                  </div>
-               </div>
-             </div>
-           </div>
-         </div>
-       </li>
-       <li>
-         <router-link to="/profile"><i class="pe-7s-user"></i>Profile</router-link>
+             </li>
+             <li>
+                 <router-link to="/profile"><i class="pe-7s-user"></i>Profile</router-link>
 
-       </li>
-       <li>
-         <router-link to="/company"><i class="pe-7s-flag"></i>Company</router-link>
+             </li>
+             <li class="active">
+                 <router-link to="/company"><i class="pe-7s-flag"></i>Company</router-link>
 
-       </li>
-       <li >
-         <router-link to="/proposition"><i class="pe-7s-diamond"></i>Proposition</router-link>
-       </li>
-       <li class="active">
-          <router-link to="/import-contacts"><i class="pe-7s-id"></i>Import Contacts</router-link>
+             </li>
+             <li >
+                 <router-link to="/proposition"><i class="pe-7s-diamond"></i>Proposition</router-link>
+             </li>
+             <li>
+                 <router-link to="/import-contacts"><i class="pe-7s-id"></i>Import Contacts</router-link>
 
-       </li>
-       <li>
-          <router-link to="/crm-video"><i class="pe-7s-note2"></i>CRM-Video</router-link>
+             </li>
+             <li>
+                 <router-link to="/gmail-contacts"><i class="pe-7s-id"></i> Contacts</router-link>
 
-       </li>
-       <li>
-         <a ><i class="pe-7s-menu"></i>Manage Lists</a>
-       </li>
-       <li>
-         <a ><i class="pe-7s-speaker"></i>Send Blast</a>
-       </li>
-       <li>
-         <a  data-toggle="collapse" aria-expanded="false">
-                         <i class="pe-7s-cash"></i>Transactions<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
-                     </a>
-         <ul id="transactions" class="nav nav-second collapse">
-           <li>
-             <a ><i class="pe-7s-like"></i>Donations</a>
-           </li>
-           <li><a ><i class="pe-7s-cash"></i>Buy Credit </a></li>
+             </li>
+             <li>
+                 <router-link to="/crm-video"><i class="pe-7s-note2"></i>CRM-Video</router-link>
+
+             </li>
+             <li>
+                 <router-link to="/Manage-list"><i class="pe-7s-menu"></i>Manage Lists</router-link>
+
+             </li>
+             <li>
+                 <router-link to="/blast"><i class="pe-7s-speaker"></i>Send Blast</router-link>
+             </li>
+             <li>
+                 <router-link to="/payment"><i class="pe-7s-cash"></i>Payment</router-link>
+             </li>
+             <li>
+                 <router-link to="/settings"><i class="pe-7s-help1"></i>Default</router-link>
+             </li>
          </ul>
-       </li>
-       <li>
-         <a href="#Settings" data-toggle="collapse" aria-expanded="false">
-                         <i class="pe-7s-config"></i>Settings<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
-                     </a>
-         <ul id="Settings" class="nav nav-second collapse">
-
-            <router-link to="/settings"><i class="pe-7s-help1"></i>Default</router-link>
-
-         </ul>
-       </li>
-     </ul>
-   </nav>
+     </nav>
  </aside>
  <!-- End Aside-->
 
@@ -154,26 +144,7 @@
               <!-- Content Body -->
               <div class="row">
 
-                  <div class="col-md-6 ">
-                      <div class="panel panel-filled">
-                          <div class="panel-heading p-h">
-                              <i class="icon-su-title pe-7s-call"></i>Sales Force
-                          </div>
-                          <div class="panel-body text-center py-5">
-                            <router-link to="/salesforce-contacts" class="btn btn-default btn-lg">Import Sales Force Contacts</router-link>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-md-6 ">
-                      <div class="panel panel-filled">
-                          <div class="panel-heading p-h">
-                              <i class="pe-7s-mail icon-su-title"></i>Gmail
-                          </div>
-                          <div class="panel-body text-center py-5">
-                            <router-link to="/gmail-contacts" class="btn btn-default btn-lg">Import Gmail Contacts</router-link>
-                          </div>
-                      </div>
-                  </div>
+            <div class="socialinviter"></div>
               </div>
             </div>
       </section>

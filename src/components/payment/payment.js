@@ -1,4 +1,5 @@
 import {Http} from '@/http-config.js'
+import router from "../../router";
 
 export default {
 
@@ -16,18 +17,25 @@ data(){
 
 },
     created : function() {
-        Http.get('api/founders/listpackage?api_token='+this.$ls.get('token')).then(successResponse => {
-            console.log("Success ", successResponse.data)
-            this.package = successResponse.data.data
-        }).catch(errorResponse => {
-            console.log("Error ", errorResponse)
-        });
-        Http.get('api/founders/company?api_token='+this.$ls.get('token')).then(successResponse => {
-            console.log("Success ", successResponse.data)
-            this.balance = successResponse.data.data.balance
-        }).catch(errorResponse => {
-            console.log("Error ", errorResponse)
-        });
+        if(this.$ls.get('token')=='')
+        {
+            router.push({path: '/login'})
+
+        }
+        else {
+            Http.get('api/founders/listpackage?api_token=' + this.$ls.get('token')).then(successResponse => {
+                console.log("Success ", successResponse.data)
+                this.package = successResponse.data.data
+            }).catch(errorResponse => {
+                console.log("Error ", errorResponse)
+            });
+            Http.get('api/founders/company?api_token=' + this.$ls.get('token')).then(successResponse => {
+                console.log("Success ", successResponse.data)
+                this.balance = successResponse.data.data.balance
+            }).catch(errorResponse => {
+                console.log("Error ", errorResponse)
+            });
+        }
     },
     methods: {
         checkout: function(event) {

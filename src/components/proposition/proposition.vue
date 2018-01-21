@@ -48,78 +48,68 @@
 
  <!-- Start Aside -->
  <aside class="navigation navigation-nav">
-   <nav>
-     <ul class="nav luna-nav">
-       <li class="clearfix">
-         <div class="form-group col-xs-12 ">
-           <div class="example">
-             <div class="example__left">
-               <div id="companypic" class="userpic" style="background-image: url(static/images/avatar.jpg);">
-                 <div class="js-preview userpic__preview"></div>
-                 <div class="btn js-fileapi-wrapper">
-                   <div class="js-browse">
-                     <span class="btn-txt"><i class="pe-7s-photo"></i></span>
-                     <input type="file" name="filedata" />
-                   </div>
-                   <div class="js-upload" style="display: none;">
-                     <div class="progress progress-success">
-                       <div class="js-progress bar"></div>
+   <nav>ss
+       <ul class="nav luna-nav">
+         <li class="clearfix">
+           <div class="form-group col-xs-12 ">
+             <div class="example">
+               <div class="example__left">
+                 <div id="companypic" class="userpic" style="background-image: url(static/images/avatar.jpg);">
+                   <div class="js-preview userpic__preview"></div>
+                   <div class="btn js-fileapi-wrapper">
+                     <div class="js-browse">
+                       <span class="btn-txt"><i class="pe-7s-photo"></i></span>
+                       <input type="file" name="filedata" />
                      </div>
-                     <span class="btn-txt">Uploading</span>
+                     <div class="js-upload" style="display: none;">
+                       <div class="progress progress-success">
+                         <div class="js-progress bar"></div>
+                       </div>
+                       <span class="btn-txt">Uploading</span>
+                     </div>
                    </div>
                  </div>
                </div>
              </div>
            </div>
-         </div>
-       </li>
-       <li>
-         <router-link to="/profile"><i class="pe-7s-user"></i>Profile</router-link>
+         </li>
+         <li>
+           <router-link to="/profile"><i class="pe-7s-user"></i>Profile</router-link>
 
-       </li>
-       <li>
-         <router-link to="/company"><i class="pe-7s-flag"></i>Company</router-link>
+         </li>
+         <li class="active">
+           <router-link to="/company"><i class="pe-7s-flag"></i>Company</router-link>
 
-       </li>
-       <li class="active">
-         <router-link to="/proposition"><i class="pe-7s-diamond"></i>Proposition</router-link>
-       </li>
-       <li >
-          <router-link to="/import-contacts"><i class="pe-7s-id"></i>Import Contacts</router-link>
+         </li>
+         <li >
+           <router-link to="/proposition"><i class="pe-7s-diamond"></i>Proposition</router-link>
+         </li>
+         <li>
+           <router-link to="/import-contacts"><i class="pe-7s-id"></i>Import Contacts</router-link>
 
-       </li>
-       <li>
-          <router-link to="/crm-video"><i class="pe-7s-note2"></i>CRM-Video</router-link>
+         </li>
+         <li>
+           <router-link to="/gmail-contacts"><i class="pe-7s-id"></i> Contacts</router-link>
 
-       </li>
-       <li>
-         <a ><i class="pe-7s-menu"></i>Manage Lists</a>
-       </li>
-       <li>
-         <a ><i class="pe-7s-speaker"></i>Send Blast</a>
-       </li>
-       <li>
-         <a  data-toggle="collapse" aria-expanded="false">
-                         <i class="pe-7s-cash"></i>Transactions<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
-                     </a>
-         <ul id="transactions" class="nav nav-second collapse">
-           <li>
-             <a ><i class="pe-7s-like"></i>Donations</a>
-           </li>
-           <li><a ><i class="pe-7s-cash"></i>Buy Credit </a></li>
-         </ul>
-       </li>
-       <li>
-         <a href="#Settings" data-toggle="collapse" aria-expanded="false">
-                         <i class="pe-7s-config"></i>Settings<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
-                     </a>
-         <ul id="Settings" class="nav nav-second collapse">
+         </li>
+         <li>
+           <router-link to="/crm-video"><i class="pe-7s-note2"></i>CRM-Video</router-link>
 
-            <router-link to="/settings"><i class="pe-7s-help1"></i>Default</router-link>
+         </li>
+         <li>
+           <router-link to="/Manage-list"><i class="pe-7s-menu"></i>Manage Lists</router-link>
 
-         </ul>
-       </li>
-     </ul>
+         </li>
+         <li>
+           <router-link to="/blast"><i class="pe-7s-speaker"></i>Send Blast</router-link>
+         </li>
+         <li>
+           <router-link to="/payment"><i class="pe-7s-cash"></i>Payment</router-link>
+         </li>
+         <li>
+           <router-link to="/settings"><i class="pe-7s-help1"></i>Default</router-link>
+         </li>
+       </ul>
    </nav>
  </aside>
  <!-- End Aside-->
@@ -171,21 +161,26 @@
                  <li class="list-prep">
                    <div class="form-group">
                      <label>Proposition</label>
-                     <textarea rows="6" v-model="proposition.proposition1"  class="form-control textarea-message"  placeholder="Proposition"></textarea>
+                     <span v-show="errors.has('proposition')" class="text-danger">{{ errors.first('proposition') }}</span>
+
+                     <textarea rows="6" name="proposition" v-validate="'min:100'"   v-model="proposition.proposition1"  class="form-control textarea-message"  placeholder="Proposition"></textarea>
                    </div>
                  </li>
 
                  <li class="list-prep" >
                    <div class="form-group">
                      <label>Proposition</label>
-                     <textarea rows="6" v-model="proposition.proposition2"  class="form-control textarea-message" placeholder="Proposition"></textarea>
+                     <span v-show="errors.has('proposition 2')" class="text-danger">{{ errors.first('proposition 2') }}</span>
+                     <textarea rows="6" name="proposition 2" v-validate="'min:100'" v-model="proposition.proposition2"  class="form-control textarea-message" placeholder="Proposition"></textarea>
                    </div>
                  </li>
 
                  <li class="list-prep" >
                    <div class="form-group">
                      <label>Proposition</label>
-                     <textarea rows="6" v-model="proposition.proposition3"  class="form-control textarea-message" placeholder="Proposition"></textarea>
+                     <span v-show="errors.has('proposition 3')" class="text-danger">{{ errors.first('proposition 3') }}</span>
+
+                     <textarea rows="6" name="proposition 3" v-validate="'min:100'" v-model="proposition.proposition3"  class="form-control textarea-message" placeholder="Proposition"></textarea>
                    </div>
                  </li>
 

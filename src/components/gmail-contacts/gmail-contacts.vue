@@ -77,47 +77,37 @@
           <router-link to="/profile"><i class="pe-7s-user"></i>Profile</router-link>
 
         </li>
-        <li>
+        <li class="active">
           <router-link to="/company"><i class="pe-7s-flag"></i>Company</router-link>
 
         </li>
         <li >
           <router-link to="/proposition"><i class="pe-7s-diamond"></i>Proposition</router-link>
         </li>
-        <li class="active">
-           <router-link to="/import-contacts"><i class="pe-7s-id"></i>Import Contacts</router-link>
+        <li>
+          <router-link to="/import-contacts"><i class="pe-7s-id"></i>Import Contacts</router-link>
 
         </li>
         <li>
-           <router-link to="/crm-video"><i class="pe-7s-note2"></i>CRM-Video</router-link>
+          <router-link to="/gmail-contacts"><i class="pe-7s-id"></i> Contacts</router-link>
 
         </li>
         <li>
-          <a ><i class="pe-7s-menu"></i>Manage Lists</a>
-        </li>
-        <li>
-          <a ><i class="pe-7s-speaker"></i>Send Blast</a>
-        </li>
-        <li>
-          <a  data-toggle="collapse" aria-expanded="false">
-                          <i class="pe-7s-cash"></i>Transactions<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
-                      </a>
-          <ul id="transactions" class="nav nav-second collapse">
-            <li>
-              <a ><i class="pe-7s-like"></i>Donations</a>
-            </li>
-            <li><a ><i class="pe-7s-cash"></i>Buy Credit </a></li>
-          </ul>
-        </li>
-        <li>
-          <a href="#Settings" data-toggle="collapse" aria-expanded="false">
-                          <i class="pe-7s-config"></i>Settings<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
-                      </a>
-          <ul id="Settings" class="nav nav-second collapse">
+          <router-link to="/crm-video"><i class="pe-7s-note2"></i>CRM-Video</router-link>
 
-             <router-link to="/settings"><i class="pe-7s-help1"></i>Default</router-link>
+        </li>
+        <li>
+          <router-link to="/Manage-list"><i class="pe-7s-menu"></i>Manage Lists</router-link>
 
-          </ul>
+        </li>
+        <li>
+          <router-link to="/blast"><i class="pe-7s-speaker"></i>Send Blast</router-link>
+        </li>
+        <li>
+          <router-link to="/payment"><i class="pe-7s-cash"></i>Payment</router-link>
+        </li>
+        <li>
+          <router-link to="/settings"><i class="pe-7s-help1"></i>Default</router-link>
         </li>
       </ul>
     </nav>
@@ -135,9 +125,9 @@
               <i class="pe page-header-icon pe-7s-id"></i>
             </div>
             <div class="header-title">
-              <h3 class="m-b-xs">Import Contacts </h3>
+              <h3 class="m-b-xs">All Contacts </h3>
               <small>
-                             Sales Force Contacts
+                             All Contacts
                          </small>
             </div>
           </div>
@@ -147,12 +137,11 @@
       <!-- Content Body -->
       <div class="row">
 
-          <button v-on:click="auth">GET CONTACTS FEED</button>
 
           <div class="col-md-12 ">
           <div class="panel panel-filled">
             <div class="panel-heading p-h">
-              <i class="icon-su-title pe-7s-mail"></i>Sales Force Contacts
+              <i class="icon-su-title pe-7s-mail"></i>All Contacts
             </div>
             <div class="panel-body text-center ">
               <div class="table-responsive">
@@ -226,8 +215,13 @@
         </div>
         <div class="modal-body">
           <form  v-on:submit.prevent="addlist">
+
+            <p v-model="errorhandle" class="errorhandle">{{errorhandle}}</p>
+            <p v-if="errordata" v-model="errordata" class="errorhandle">List  Contacts  Updated</p>
+
             <div class="form-group form-select-list">
-              <input type="text"  v-model="Namelist.listname" class="form-control"  placeholder="Create New List">
+              <span v-show="errors.has('list')" class="text-danger">{{ errors.first('list') }}</span>
+              <input type="text" name="list" v-validate="'required'" v-model="Namelist.listname" class="form-control"  placeholder="Create New List">
               <button type="submit"    class="btn btn-select-list btn-default"><span class="pe-7s-plus"></span></button>
               <div class="clearfix"></div>
             </div>
@@ -236,7 +230,7 @@
           <ul class="list-li">
             <li v-for="list in groupdata" >
                 <input  type="radio" v-bind:value="list.ID" v-model="selected" >
-                <label>{{ list.Name}}</label>
+                <label>{{ list.Name}} <span>contacts:{{list.CountList}}</span></label>
             </li>
 
           </ul>

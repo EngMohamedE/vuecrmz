@@ -7,6 +7,12 @@ export default {
     return {plivoBrowserSdk: null}
   },
   created : function() {
+      if(this.$ls.get('token')=='')
+      {
+          router.push({path: '/login'})
+
+      }
+      else {
     var options = {
       "debug": "DEBUG",
       "permOnClick": true,
@@ -26,7 +32,7 @@ export default {
     var pass = 'Kashef#2014';
     plivoBrowserSdk.client.login(username, pass);
     this.plivoBrowserSdk = plivoBrowserSdk
-  },
+  }},
   methods : {
     call: function(event) {
       var dest = "+201145155565";

@@ -1,10 +1,11 @@
 import {Http} from '@/http-config.js'
+import router from "../../router";
 
 export default {
   name : 'proposition',
   data() {
     return {
-        errorhandle:false,
+        errorhandle:"",
         proposition:{
           "id": -1,
           "proposition1": "",
@@ -15,24 +16,36 @@ export default {
     }
   },
   created : function() {
-    Http.get('api/founders/propositions/list?api_token='+this.$ls.get('token')).then(successResponse => {
-      console.log("Success ", successResponse.data.data)
-      this.proposition = successResponse.data.data
-    }).catch(errorResponse => {
-      console.log("Error ", errorResponse)
-    });
+      if(this.$ls.get('token')=='')
+      {
+          router.push({path: '/login'})
+
+      }
+      else {
+          Http.get('api/founders/propositions/list?api_token=' + this.$ls.get('token')).then(successResponse => {
+              console.log("Success ", successResponse.data.data)
+              this.proposition = successResponse.data.data
+          }).catch(errorResponse => {
+              console.log("Error ", errorResponse)
+          });
+      }
   },
   methods : {
-    save: function(){
+    save: function(event){
+        event.preventDefault();
+        if (this.errors.all().length > 0) {
+            this.errorhandle = "Validation error";
+        }
+        else{
         this.proposition['proposition_id'] = this.proposition['id']
       Http.patch('api/founders/propositions/update?api_token='+this.$ls.get('token'), this.proposition, {headers : {
         'x-access-token': this.$ls.get('token')
       }}).then(successResponse => {
-          this.errorhandle=true,
+          this.errorhandle="Updated Sucessfuly",
           console.log("Success ", successResponse.data)
       }).catch(errorResponse => {
         console.log("Error ", errorResponse)
-      });
+      });}
     }
   }
 }

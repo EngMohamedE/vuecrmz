@@ -6,6 +6,7 @@ export default {
 
     data() {
         return {
+            errordata:false,
             contact: {
                 ID: -1,
                 Name: '',
@@ -23,24 +24,31 @@ export default {
             },
             checkedNames: [],
             selected: '',
-            errorhandle:false
+            errorhandle:""
         }
     },
     created: function () {
-        Http.get('api/founders/Contacts?api_token=' + this.$ls.get('token')).then(successResponse => {
-            this.contact = successResponse.data.data
-            console.log(successResponse)
-            console.log("Success ", successResponse.data)
-        }).catch(errorResponse => {
-            console.log("Error ", errorResponse)
-        });
-        Http.get('api/founders/getfounderList?api_token=' + this.$ls.get('token')).then(successResponse => {
-            this.groupdata = successResponse.data.data
-            console.log(successResponse)
-            console.log("Success ", successResponse.data)
-        }).catch(errorResponse => {
-            console.log("Error ", errorResponse)
-        });
+        if(this.$ls.get('token')=='')
+        {
+            router.push({path: '/login'})
+
+        }
+        else {
+            Http.get('api/founders/Contacts?api_token=' + this.$ls.get('token')).then(successResponse => {
+                this.contact = successResponse.data.data
+                console.log(successResponse)
+                console.log("Success ", successResponse.data)
+            }).catch(errorResponse => {
+                console.log("Error ", errorResponse)
+            });
+            Http.get('api/founders/getfounderList?api_token=' + this.$ls.get('token')).then(successResponse => {
+                this.groupdata = successResponse.data.data
+                console.log(successResponse)
+                console.log("Success ", successResponse.data)
+            }).catch(errorResponse => {
+                console.log("Error ", errorResponse)
+            });
+        }
     },
     methods: {
         auth() {
@@ -89,15 +97,28 @@ export default {
             });
         },
         addlist: function (event) {
-
+            event.preventDefault();
+            if (this.errors.all().length > 0) {
+                this.errorhandle = "Validation error";
+            }
+            else{
             this.Namelist['Name'] = this.Namelist['listname'];
             // console.log(listname);
             Http.post('api/founders/createlist?api_token=' + this.$ls.get('token'), this.Namelist).then(successResponse => {
+                this.errorhandle="Created List Sucessfuly"
                 console.log("Success ", successResponse.data)
+                //get all  list  after  add  new  list
+                Http.get('api/founders/getfounderList?api_token=' + this.$ls.get('token')).then(successResponse => {
+                    this.groupdata = successResponse.data.data
+                    console.log("Success ", successResponse.data)
+                }).catch(errorResponse => {
+                    console.log("Error ", errorResponse)
+                });
             }).catch(errorResponse => {
                 console.log(listname)
                 console.log("Error ", errorResponse)
             });
+            }
 
         },
         addtolist: function (event) {
@@ -108,7 +129,7 @@ export default {
                 contacts : this.checkedNames
             }
             Http.patch('api/founders/updatetolist?api_token=' + this.$ls.get('token'), contactslist).then(successResponse => {
-                this.errorhandle=true,
+                this.errordata=true,
                     console.log("Success ", successResponse.data)
             }).catch(errorResponse => {
                 console.log("Error ", errorResponse)

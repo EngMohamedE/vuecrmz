@@ -1,16 +1,360 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d5caad88-3f87-40e7-8014-5904d81cf68e" name="Default" comment="">
+    <list default="true" id="d5caad88-3f87-40e7-8014-5904d81cf68e" name="Default" comment="Import Gmail conatctsImport Gmail conatcts">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.htaccess" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/css/app.45b7f4aab51ac82bd6c321a67ea73246.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/css/app.45b7f4aab51ac82bd6c321a67ea73246.css.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/Jcrop.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/^333AEAB8D27B80261F758CEBCF1AA87FB25B2CC87E883BA6AE^pimgpsh_fullsize_distr.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/admin-logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/avatar-01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/avatar-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/avatar-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/avatar-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/avatar.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/bg-8.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/bg.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/brand/1.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/brand/2.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/brand/3.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/brand/4.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/brand/5.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/brand/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/cartographer.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/chatbot.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/cover.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/favicon.PNG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/founder-01.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/founder-02.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/founder-03.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/founder-04.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/left.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo.jpg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/lucy-galal.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/noise.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/pattern.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/plyr.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/right.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/social-media/Thumbs.db" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/social-media/email.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/social-media/facebook.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/social-media/google-plus.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/social-media/linkedin.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/social-media/sms.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/social-media/twitter.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/user-icon.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/user-logo.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/images/userpic.gif" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/index.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/js/app.a43c19e3db1711f017c7.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/js/app.a43c19e3db1711f017c7.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/js/manifest.ec120169423482b541c6.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/js/manifest.ec120169423482b541c6.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/js/vendor.b87863f570a270af78eb.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/js/vendor.b87863f570a270af78eb.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/all.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/all.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/luna.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/oauth.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/scripts/vue-social-sharing.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/pe-icons/Pe-icon-7-stroke.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/pe-icons/Pe-icon-7-stroke.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/pe-icons/Pe-icon-7-stroke.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/pe-icons/Pe-icon-7-stroke.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/pe-icons/helper.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/pe-icons/pe-icon-7-stroke.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/stroke-icons/stroke.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/stroke-icons/stroke.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/stroke-icons/stroke.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/stroke-icons/stroke.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/stroke-icons/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/style-home.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/styles/style.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/bootstrap/css/bootstrap.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/bootstrap/js/bootstrap.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/conversational/css/conversational-form.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/conversational/js/conversational-form.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/fontawesome/css/font-awesome.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/fontawesome/fonts/FontAwesome.otf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/fontawesome/fonts/fontawesome-webfont.eot" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/fontawesome/fonts/fontawesome-webfont.svg" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/fontawesome/fonts/fontawesome-webfont.ttf" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/fontawesome/fonts/fontawesome-webfont.woff" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/fontawesome/fonts/fontawesome-webfont.woff2" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/jcrop/css/jquery.Jcrop.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/jcrop/js/FileAPI.exif.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/jcrop/js/FileAPI.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/jcrop/js/jquery.Jcrop.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/jcrop/js/jquery.fileapi.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/jcrop/js/jquery.modal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/jquery/jquery.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/lity/css/lity.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/lity/js/lity.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/owl-carousel/css/owl.carousel.min.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/owl-carousel/js/owl.carousel.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/pacejs/pace.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/plyr/css/plyr.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/plyr/js/plyr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/dist/vendor/slimscroll/jquery.slimscroll.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/estree-walker/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/estree-walker/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/estree-walker/dist/estree-walker.es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/estree-walker/dist/estree-walker.es.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/estree-walker/dist/estree-walker.es6.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/estree-walker/dist/estree-walker.es6.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/estree-walker/dist/estree-walker.umd.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/estree-walker/dist/estree-walker.umd.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/estree-walker/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/estree-walker/src/estree-walker.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-plugin-json/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-plugin-json/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-plugin-json/dist/rollup-plugin-json.cjs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-plugin-json/dist/rollup-plugin-json.cjs.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-plugin-json/dist/rollup-plugin-json.es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-plugin-json/dist/rollup-plugin-json.es.js.map" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-plugin-json/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-plugin-json/src/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/dist/pluginutils.cjs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/dist/pluginutils.es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/dist/pluginutils.es6.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/src/addExtension.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/src/attachScopes.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/src/createFilter.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/src/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/src/makeLegalIdentifier.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/rollup-pluginutils/src/utils/ensureArray.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/ar.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/bg.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/ca.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/cs.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/da.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/de.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/el.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/en.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/es.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/et.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/eu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/fa.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/fi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/fr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/he.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/hr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/hu.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/id.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/it.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/ja.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/ka.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/ko.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/lt.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/ms_MY.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/nb_NO.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/nl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/nn_NO.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/pl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/pt_BR.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/pt_PT.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/ro.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/ru.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/sk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/sl.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/sq.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/sr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/sv.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/th.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/tr.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/ua.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/uk.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/vi.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/zh_CN.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/locale/zh_TW.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/vee-validate.esm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/vee-validate.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/vee-validate.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/vee-validate.minimal.esm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/vee-validate.minimal.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/dist/vee-validate.minimal.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/types/index.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/types/vee-validate.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vee-validate/types/vue.d.ts" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-google-signin-button/.babelrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-google-signin-button/.eslintrc" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-google-signin-button/.npmignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-google-signin-button/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-google-signin-button/dist/vue-google-signin-button.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-google-signin-button/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-google-signin-button/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-google-signin-button/screenshot.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/CHANGELOG.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/dist/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/dist/vue-social-sharing.common.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/dist/vue-social-sharing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/dist/vue-social-sharing.min.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/package.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/src/index.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/src/networks.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/src/social-sharing-network.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/node_modules/vue-social-sharing/src/social-sharing.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/Manage-list/Manage-list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/Manage-list/Manage-list.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/Manage-list/manage-list.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/blast/blast.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/blast/blast.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/blast/blast.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/list/list.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/list/list.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/list/list.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/past-campaigns/past-campaigns.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/past-campaigns/past-campaigns.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/components/past-campaigns/past-campaigns.vue" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/scripts/all.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/scripts/all.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/scripts/oauth.html" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/static/scripts/vue-social-sharing.min.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/css/app.f24cd061ea35ce3f435dff8feccce047.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/css/app.f24cd061ea35ce3f435dff8feccce047.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/Jcrop.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/^333AEAB8D27B80261F758CEBCF1AA87FB25B2CC87E883BA6AE^pimgpsh_fullsize_distr.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/admin-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/avatar-01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/avatar-02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/avatar-03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/avatar-04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/avatar.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/bg-8.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/bg.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/brand/1.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/brand/2.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/brand/3.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/brand/4.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/brand/5.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/brand/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/cartographer.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/chatbot.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/cover.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/favicon.PNG" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/founder-01.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/founder-02.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/founder-03.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/founder-04.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/left.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/logo.jpg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/lucy-galal.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/noise.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/pattern.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/plyr.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/right.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/social-media/Thumbs.db" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/social-media/email.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/social-media/facebook.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/social-media/google-plus.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/social-media/linkedin.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/social-media/sms.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/social-media/twitter.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/user-icon.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/user-logo.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/images/userpic.gif" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/js/app.d2d8368b731364ecca86.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/js/app.d2d8368b731364ecca86.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/js/manifest.ed5bb9e808c9ad48f05f.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/js/manifest.ed5bb9e808c9ad48f05f.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/js/vendor.a98adda0eb524267d871.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/js/vendor.a98adda0eb524267d871.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/scripts/luna.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/pe-icons/Pe-icon-7-stroke.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/pe-icons/Pe-icon-7-stroke.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/pe-icons/Pe-icon-7-stroke.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/pe-icons/Pe-icon-7-stroke.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/pe-icons/helper.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/pe-icons/pe-icon-7-stroke.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/stroke-icons/stroke.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/stroke-icons/stroke.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/stroke-icons/stroke.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/stroke-icons/stroke.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/stroke-icons/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/style-home.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/styles/style.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/conversational/css/conversational-form.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/conversational/js/conversational-form.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/fontawesome/css/font-awesome.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/fontawesome/fonts/FontAwesome.otf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/fontawesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/fontawesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/fontawesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/fontawesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/fontawesome/fonts/fontawesome-webfont.woff2" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/jcrop/css/jquery.Jcrop.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/jcrop/js/FileAPI.exif.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/jcrop/js/FileAPI.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/jcrop/js/jquery.Jcrop.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/jcrop/js/jquery.fileapi.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/jcrop/js/jquery.modal.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/jquery/jquery.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/lity/css/lity.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/lity/js/lity.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/owl-carousel/css/owl.carousel.min.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/owl-carousel/js/owl.carousel.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/pacejs/pace.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/plyr/css/plyr.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/plyr/js/plyr.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/assets/static/vendor/slimscroll/jquery.slimscroll.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/index.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/src/assets/static/css/app.f24cd061ea35ce3f435dff8feccce047.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/src/assets/static/css/app.f24cd061ea35ce3f435dff8feccce047.css.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/src/assets/static/js/app.d2d8368b731364ecca86.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/src/assets/static/js/app.d2d8368b731364ecca86.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/src/assets/static/js/manifest.ed5bb9e808c9ad48f05f.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/src/assets/static/js/manifest.ed5bb9e808c9ad48f05f.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/src/assets/static/js/vendor.a98adda0eb524267d871.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/distnew/src/assets/static/js/vendor.a98adda0eb524267d871.js.map" afterPath="" />
       <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change beforePath="$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.css" afterPath="$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.css" />
+      <change beforePath="$PROJECT_DIR$/src/components/company/company.js" afterPath="$PROJECT_DIR$/src/components/company/company.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/company/company.vue" afterPath="$PROJECT_DIR$/src/components/company/company.vue" />
+      <change beforePath="$PROJECT_DIR$/src/components/crm-video/crm-video.js" afterPath="$PROJECT_DIR$/src/components/crm-video/crm-video.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/crm-video/crm-video.vue" afterPath="$PROJECT_DIR$/src/components/crm-video/crm-video.vue" />
       <change beforePath="$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.js" afterPath="$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.js" />
       <change beforePath="$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.vue" afterPath="$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.vue" />
-      <change beforePath="$PROJECT_DIR$/src/components/import-contacts/import-contacts.css" afterPath="$PROJECT_DIR$/src/components/import-contacts/import-contacts.css" />
+      <change beforePath="$PROJECT_DIR$/src/components/import-contacts/import-contacts.js" afterPath="$PROJECT_DIR$/src/components/import-contacts/import-contacts.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/import-contacts/import-contacts.vue" afterPath="$PROJECT_DIR$/src/components/import-contacts/import-contacts.vue" />
+      <change beforePath="$PROJECT_DIR$/src/components/payment/payment.js" afterPath="$PROJECT_DIR$/src/components/payment/payment.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/payment/payment.vue" afterPath="$PROJECT_DIR$/src/components/payment/payment.vue" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/profile.js" afterPath="$PROJECT_DIR$/src/components/profile/profile.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/profile/profile.vue" afterPath="$PROJECT_DIR$/src/components/profile/profile.vue" />
+      <change beforePath="$PROJECT_DIR$/src/components/proposition/proposition.js" afterPath="$PROJECT_DIR$/src/components/proposition/proposition.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/proposition/proposition.vue" afterPath="$PROJECT_DIR$/src/components/proposition/proposition.vue" />
+      <change beforePath="$PROJECT_DIR$/src/components/settings/settings.js" afterPath="$PROJECT_DIR$/src/components/settings/settings.js" />
+      <change beforePath="$PROJECT_DIR$/src/components/settings/settings.vue" afterPath="$PROJECT_DIR$/src/components/settings/settings.vue" />
+      <change beforePath="$PROJECT_DIR$/src/http-config.js" afterPath="$PROJECT_DIR$/src/http-config.js" />
       <change beforePath="$PROJECT_DIR$/src/router/index.js" afterPath="$PROJECT_DIR$/src/router/index.js" />
+      <change beforePath="$PROJECT_DIR$/static/styles/style.css" afterPath="$PROJECT_DIR$/static/styles/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,46 +365,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="gmail-contacts.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3094">
-              <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.prod.conf.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/webpack.prod.conf.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/router/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="66" column="30" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="http-config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/http-config.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -71,53 +375,44 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/router/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="payment.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/payment/payment.vue">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2839">
-              <caret line="167" column="59" lean-forward="false" selection-start-line="167" selection-start-column="59" selection-end-line="167" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gmail-contacts.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="76" column="40" lean-forward="true" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
+            <state relative-caret-position="388">
+              <caret line="143" column="23" lean-forward="false" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="23" />
               <folding>
-                <element signature="e#0#37#0" expanded="true" />
+                <element signature="e#0#21#0" expanded="true" />
+                <element signature="e#1084#1135#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proposition.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/proposition/proposition.js">
+      <file leaf-file-name="gmail-contacts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="14">
+              <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="proposition.vue" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/proposition/proposition.vue">
+      <file leaf-file-name="gmail-contacts.vue" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.vue">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2856">
-              <caret line="168" column="39" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+            <state relative-caret-position="-275">
+              <caret line="144" column="18" lean-forward="false" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="App.vue" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/App.vue">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -127,47 +422,53 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>str</find>
-      <find>stripe</find>
-      <find>social-form</find>
-      <find>packages</find>
-      <find>bus</find>
-      <find>check</find>
-      <find>company_id</find>
-      <find>mu</find>
-      <find>proposition</find>
-      <find>select</find>
-      <find>multiselect</find>
-      <find>&lt;style src=&quot;vue-multiselect/dist/vue-multiselect.min.css&quot;&gt;&lt;/style&gt;</find>
-      <find>packa</find>
-      <find>SALES</find>
-      <find>GMAIL</find>
-      <find>https</find>
-      <find>balance</find>
-      <find>button</find>
-      <find>create</find>
-      <find>router</find>
-      <find>channel</find>
-      <find>contacts</find>
       <find>click</find>
-      <find>Select List</find>
-      <find>Dep</find>
-      <find>FEED</find>
-      <find>gmail</find>
-      <find>FE</find>
-      <find>google-contacts</find>
-      <find>imahe</find>
+      <find>socialinviter</find>
+      <find>localhost:</find>
+      <find>auth</find>
+      <find>elrodathy</find>
+      <find>melrodathy.000webhostapp</find>
+      <find>authpage</find>
+      <find>melrodathy.000webhostapp.com</find>
+      <find>swal('Success', 'Thank you', 'success')</find>
+      <find>swal</find>
+      <find>imageurl</find>
+      <find>localhost:8000</find>
+      <find>vee</find>
+      <find>exampleInputName</find>
+      <find>Sendblast</find>
+      <find>ManageList</find>
+      <find>social</find>
+      <find>network</find>
+      <find>SocialSharing</find>
+      <find>vue-social-sharing.min.js</find>
+      <find>add</find>
+      <find>addlist</find>
+      <find>vali</find>
+      <find>errorhandle</find>
+      <find>v-if</find>
+      <find>feed</find>
+      <find>error</find>
+      <find>route</find>
+      <find>setting</find>
+      <find>count</find>
     </findStrings>
+    <replaceStrings>
+      <replace>crmzz.com</replace>
+    </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\crmzz-vue</dir>
       <dir>C:\xampp\htdocs\yp\static</dir>
+      <dir>C:\xampp\htdocs\yp\dist</dir>
+      <dir>C:\xampp\htdocs\yp</dir>
+      <dir>C:\Users\ecs\Downloads\socialinviter_php</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Stripe_connect" />
+        <entry key="$PROJECT_DIR$" value="Import_contacts" />
       </map>
     </option>
     <excluded-from-favorite>
@@ -194,36 +495,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/components/profile/profile.js" />
-        <option value="$PROJECT_DIR$/src/components/profile/profile.vue" />
-        <option value="$PROJECT_DIR$/src/assets/static/styles/style.css" />
-        <option value="$PROJECT_DIR$/static/styles/style.css" />
-        <option value="$PROJECT_DIR$/../crmzz_webservice/routes/web.php" />
-        <option value="$PROJECT_DIR$/../crmzz_webservice/app/Http/Controllers/Api/FAQsController.php" />
-        <option value="$PROJECT_DIR$/../crmzz_webservice/app/Founder.php" />
-        <option value="$PROJECT_DIR$/../crmzz_webservice/app/Http/Controllers/Api/FoundersController.php" />
-        <option value="$PROJECT_DIR$/src/assets/static/js/app.e8425d43a22cbf7d71dd.js" />
-        <option value="$PROJECT_DIR$/src/components/crm-video/crm-video.js" />
         <option value="$PROJECT_DIR$/build/webpack.prod.conf.js" />
-        <option value="$PROJECT_DIR$/config/index.js" />
         <option value="$PROJECT_DIR$/package-lock.json" />
-        <option value="$PROJECT_DIR$/src/components/company/company.vue" />
         <option value="$PROJECT_DIR$/src/components/payment/bus.js" />
         <option value="$PROJECT_DIR$/src/components/VueStripeCheckout/payment.vue" />
-        <option value="$PROJECT_DIR$/src/components/proposition/proposition.vue" />
         <option value="$PROJECT_DIR$/src/components/payment/payment.css" />
-        <option value="$PROJECT_DIR$/src/components/company/company.js" />
-        <option value="$PROJECT_DIR$/src/components/payment/payment.vue" />
-        <option value="$PROJECT_DIR$/src/components/payment/payment.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/router/index.js" />
-        <option value="$PROJECT_DIR$/src/components/import-contacts/import-contacts.vue" />
         <option value="$PROJECT_DIR$/src/components/import-contacts/import-contacts.css" />
         <option value="$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.css" />
+        <option value="$PROJECT_DIR$/src/components/Manage-list/Manage_list.vue" />
+        <option value="$PROJECT_DIR$/src/components/Manage-list/Manage_list.js" />
+        <option value="$PROJECT_DIR$/src/components/list/list.vue" />
+        <option value="$PROJECT_DIR$/config/mail.php" />
+        <option value="$USER_HOME$/Downloads/zang api laravel/zang api laravel/AdminCallsController.php" />
+        <option value="$PROJECT_DIR$/static/scripts/vue-social-sharing.min.js" />
+        <option value="$USER_HOME$/Downloads/invite.blade.php" />
+        <option value="$PROJECT_DIR$/static/scripts/all.js" />
+        <option value="$PROJECT_DIR$/static/scripts/all.css" />
+        <option value="$PROJECT_DIR$/src/components/callback/login.vue" />
+        <option value="$PROJECT_DIR$/src/components/callback/callback.vue" />
+        <option value="$PROJECT_DIR$/dist/js/app.3a16b208ef355c421e23.js" />
+        <option value="$PROJECT_DIR$/dist/js/app.3a16b208ef355c421e23.js.map" />
+        <option value="$PROJECT_DIR$/src/components/send-blast/send-blast.vue" />
+        <option value="$PROJECT_DIR$/src/components/send-blast/send-blast.js" />
+        <option value="$PROJECT_DIR$/src/components/company/company.js" />
+        <option value="$PROJECT_DIR$/src/components/blast/blast.js" />
+        <option value="$PROJECT_DIR$/src/components/crm-video/crm-video.js" />
+        <option value="$PROJECT_DIR$/src/components/list/list.js" />
+        <option value="$PROJECT_DIR$/src/components/Manage-list/Manage-list.js" />
+        <option value="$PROJECT_DIR$/src/components/past-campaigns/past-campaigns.js" />
+        <option value="$PROJECT_DIR$/src/components/payment/payment.js" />
+        <option value="$PROJECT_DIR$/src/components/profile/profile.js" />
         <option value="$PROJECT_DIR$/src/components/proposition/proposition.js" />
-        <option value="$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.vue" />
+        <option value="$PROJECT_DIR$/src/components/settings/settings.js" />
+        <option value="$PROJECT_DIR$/static/styles/style.css" />
+        <option value="$PROJECT_DIR$/config/index.js" />
+        <option value="$PROJECT_DIR$/src/components/company/company.vue" />
+        <option value="$PROJECT_DIR$/src/components/Menu/menu.vue" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/components/blast/blast.vue" />
+        <option value="$PROJECT_DIR$/src/components/crm-video/crm-video.vue" />
+        <option value="$PROJECT_DIR$/src/components/profile/profile.vue" />
+        <option value="$PROJECT_DIR$/src/components/proposition/proposition.vue" />
+        <option value="$PROJECT_DIR$/src/components/settings/settings.vue" />
+        <option value="$PROJECT_DIR$/src/components/import-contacts/import-contacts.vue" />
+        <option value="$PROJECT_DIR$/src/components/Manage-list/Manage-list.vue" />
+        <option value="$PROJECT_DIR$/src/components/past-campaigns/past-campaigns.vue" />
+        <option value="$PROJECT_DIR$/src/components/payment/payment.vue" />
+        <option value="$PROJECT_DIR$/src/components/import-contacts/import-contacts.js" />
         <option value="$PROJECT_DIR$/src/http-config.js" />
         <option value="$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.js" />
+        <option value="$PROJECT_DIR$/src/router/index.js" />
+        <option value="$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.vue" />
       </list>
     </option>
   </component>
@@ -265,6 +587,7 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -275,16 +598,6 @@
             <path>
               <item name="yp" type="b2602c69:ProjectViewProjectNode" />
               <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="build" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
@@ -292,27 +605,6 @@
               <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="company" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="company-create" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="crm-video" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="yp" type="b2602c69:ProjectViewProjectNode" />
@@ -325,65 +617,27 @@
               <item name="yp" type="b2602c69:ProjectViewProjectNode" />
               <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="import-contacts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="payment" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="profile" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="proposition" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="components" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="salesforce-contacts" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="router" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="yp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="static" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="styles" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/socialinviter_php" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\yp\src\components\callback" />
+      <recent name="C:\xampp\htdocs\yp\src\components\past-campaigns" />
+      <recent name="C:\xampp\htdocs\yp\src\components\send-blast" />
+      <recent name="C:\xampp\htdocs\yp\src\components\list" />
+      <recent name="C:\xampp\htdocs\yp\src\components\Manage-list" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -396,6 +650,14 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/yp/index.html" />
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -427,7 +689,12 @@
       <workItem from="1514937270649" duration="2433000" />
       <workItem from="1514941876293" duration="7965000" />
       <workItem from="1515122037044" duration="11167000" />
-      <workItem from="1515182879706" duration="688000" />
+      <workItem from="1515182879706" duration="24958000" />
+      <workItem from="1515463397150" duration="17693000" />
+      <workItem from="1515869693012" duration="10517000" />
+      <workItem from="1515975857123" duration="22565000" />
+      <workItem from="1516352225902" duration="26974000" />
+      <workItem from="1516433702713" duration="16345000" />
     </task>
     <task id="LOCAL-00001" summary="Active  Proposition  tab">
       <created>1513555725554</created>
@@ -457,27 +724,34 @@
       <option name="project" value="LOCAL" />
       <updated>1514156437364</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Import Gmail conatcts">
+      <created>1515185612869</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1515185612869</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="192291000" />
+    <option name="totallyTimeSpent" value="310655000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.50292826" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11949685" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39937106" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
@@ -486,7 +760,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -502,7 +775,8 @@
     <MESSAGE value="Active  payment  tab" />
     <MESSAGE value="Active  Proposition  tab" />
     <MESSAGE value="Import Gmail conatcts" />
-    <option name="LAST_COMMIT_MESSAGE" value="Import Gmail conatcts" />
+    <MESSAGE value="Managelist,Validationm.Add list,Add contacts  to  list,Send  blast,Send  SMS by  Api, Import  Contacts  from Social invitier, Segement  Contacts to list...." />
+    <option name="LAST_COMMIT_MESSAGE" value="Managelist,Validationm.Add list,Add contacts  to  list,Send  blast,Send  SMS by  Api, Import  Contacts  from Social invitier, Segement  Contacts to list...." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -512,229 +786,103 @@
           <line>6</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/router/index.js</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/router/index.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="8" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/js/app.240518dfaeff4a329b29.js" />
-    <entry file="file://$PROJECT_DIR$/static/vendor/jcrop/css/jquery.Jcrop.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="626" column="10" lean-forward="false" selection-start-line="626" selection-start-column="10" selection-end-line="626" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/login/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DI01.136/app.js" />
-    <entry file="file://$PROJECT_DIR$/src/components/logout/logout.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/login/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/signup/signup.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="2210" column="1" lean-forward="true" selection-start-line="2210" selection-start-column="1" selection-end-line="2210" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/profile/profile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="51" column="27" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3422" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/salesforce-contacts/salesforce-contacts.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/dev.env.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/payment/bus.js" />
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="6502" column="6" lean-forward="false" selection-start-line="6502" selection-start-column="6" selection-end-line="6502" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue-stripe-checkout/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="false" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue-stripe-checkout/dist/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1028">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue/types/vue.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="98" column="9" lean-forward="false" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue-stripe-checkout/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" lean-forward="false" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/settings/settings.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/company/company.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="15" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3422" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/proposition/proposition.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58072">
-          <caret line="3416" column="0" lean-forward="false" selection-start-line="3416" selection-start-column="0" selection-end-line="3416" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="46" lean-forward="false" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/payment/payment.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="274">
-          <caret line="3422" column="0" lean-forward="false" selection-start-line="3422" selection-start-column="0" selection-end-line="3422" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/callback/callback.vue" />
+    <entry file="file://$PROJECT_DIR$/dist/js/app.c5aa3fb8c868569d5c11.js" />
+    <entry file="file://$PROJECT_DIR$/dist/js/app.3a16b208ef355c421e23.js" />
+    <entry file="file://$PROJECT_DIR$/dist/js/app.3a16b208ef355c421e23.js.map" />
+    <entry file="file://$PROJECT_DIR$/dist/js/app.56584374433e7072cf67.js" />
     <entry file="file://$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="3422" column="18" lean-forward="true" selection-start-line="3422" selection-start-column="18" selection-end-line="3422" selection-end-column="18" />
+        <state relative-caret-position="339">
+          <caret line="3422" column="18" lean-forward="false" selection-start-line="3422" selection-start-column="18" selection-end-line="3422" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/import-contacts/import-contacts.vue">
+    <entry file="file://$PROJECT_DIR$/src/assets/static/vendor/jcrop/js/FileAPI.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="172" column="128" lean-forward="true" selection-start-line="172" selection-start-column="128" selection-end-line="172" selection-end-column="128" />
+        <state relative-caret-position="202">
+          <caret line="1" column="5062" lean-forward="false" selection-start-line="1" selection-start-column="5062" selection-end-line="1" selection-end-column="5062" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/crm-video/crm-video.vue">
+    <entry file="file://$USER_HOME$/Downloads/socialinviter_php/processor.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" column="32" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/scripts/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="2968" column="63" lean-forward="false" selection-start-line="2968" selection-start-column="55" selection-end-line="2968" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/prod.env.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/import-contacts/import-contacts.js">
+    <entry file="file://$PROJECT_DIR$/src/components/logout/logout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/vendor/slimscroll/jquery.slimscroll.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="8" column="219" lean-forward="false" selection-start-line="8" selection-start-column="219" selection-end-line="8" selection-end-column="219" />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="15106" column="17" lean-forward="false" selection-start-line="15106" selection-start-column="17" selection-end-line="15106" selection-end-column="17" />
+          <caret line="3700" column="14" lean-forward="false" selection-start-line="3700" selection-start-column="14" selection-end-line="3700" selection-end-column="14" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="79" column="7" lean-forward="true" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
+        <state relative-caret-position="238">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+    <entry file="file://$PROJECT_DIR$/src/components/blast/blast.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="967" column="32" lean-forward="false" selection-start-line="967" selection-start-column="32" selection-end-line="967" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/crm-video/crm-video.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="15" column="25" lean-forward="false" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/axios/dist/axios.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-918">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/import-contacts/import-contacts.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57987">
-          <caret line="3411" column="22" lean-forward="false" selection-start-line="3411" selection-start-column="22" selection-end-line="3411" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/salesforce-contacts/salesforce-contacts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="26" lean-forward="false" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="493">
+          <caret line="30" column="9" lean-forward="false" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -742,61 +890,152 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="36" column="6" lean-forward="false" selection-start-line="36" selection-start-column="6" selection-end-line="36" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/profile/profile.js">
+    <entry file="file://$PROJECT_DIR$/src/components/crm-video/crm-video.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="31" lean-forward="false" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        <state relative-caret-position="123">
+          <caret line="34" column="4" lean-forward="false" selection-start-line="34" selection-start-column="4" selection-end-line="34" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/profile/profile.vue">
+    <entry file="file://$PROJECT_DIR$/src/components/list/list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4233">
-          <caret line="249" column="6" lean-forward="false" selection-start-line="249" selection-start-column="6" selection-end-line="249" selection-end-column="6" />
+        <state relative-caret-position="289">
+          <caret line="23" column="9" lean-forward="false" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/company-create/company-create.vue">
+    <entry file="file://$PROJECT_DIR$/src/components/Manage-list/Manage-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="27" column="9" lean-forward="false" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/signup/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="48" column="48" lean-forward="true" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/past-campaigns/past-campaigns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="26" column="9" lean-forward="false" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/payment/payment.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/company/company.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="100" column="14" lean-forward="false" selection-start-line="100" selection-start-column="14" selection-end-line="100" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/proposition/proposition.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="168" column="39" lean-forward="false" selection-start-line="168" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="357">
+          <caret line="37" column="9" lean-forward="false" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/proposition/proposition.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="336">
+          <caret line="30" column="7" lean-forward="false" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/settings/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/profile/profile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="9" lean-forward="false" selection-start-line="35" selection-start-column="9" selection-end-line="35" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/company/company.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="42" column="5" lean-forward="false" selection-start-line="42" selection-start-column="5" selection-end-line="47" selection-end-column="12" />
+          <folding>
+            <element signature="e#0#37#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3446" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/webpack.prod.conf.js">
+    <entry file="file://$PROJECT_DIR$/src/components/company/company.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/dev.env.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="24" column="23" lean-forward="false" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/company/company.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="194" column="62" lean-forward="false" selection-start-line="194" selection-start-column="62" selection-end-line="194" selection-end-column="62" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#aside#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ul#0;n#nav#0;n#aside#0;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#template#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Menu/menu.vue">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -804,41 +1043,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/company/company.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="303">
-          <caret line="101" column="30" lean-forward="false" selection-start-line="101" selection-start-column="30" selection-end-line="101" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="32" lean-forward="false" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="32" />
+        <state relative-caret-position="296">
+          <caret line="71" column="36" lean-forward="false" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/components/company-create/company-create.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="27" lean-forward="false" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        <state relative-caret-position="-153">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/proposition/proposition.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="50" column="10" lean-forward="false" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/import-contacts/import-contacts.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="113" column="11" lean-forward="false" selection-start-line="113" selection-start-column="11" selection-end-line="113" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Manage-list/Manage-list.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="112" column="12" lean-forward="false" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/blast/blast.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="112" column="12" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="112" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/payment/payment.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2839">
-          <caret line="167" column="59" lean-forward="false" selection-start-line="167" selection-start-column="59" selection-end-line="167" selection-end-column="59" />
+        <state relative-caret-position="160">
+          <caret line="89" column="25" lean-forward="false" selection-start-line="89" selection-start-column="25" selection-end-line="89" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/router/index.js">
+    <entry file="file://$USER_HOME$/Downloads/invite.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="66" column="30" lean-forward="false" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="30" />
+        <state relative-caret-position="-503">
+          <caret line="318" column="45" lean-forward="false" selection-start-line="318" selection-start-column="16" selection-end-line="318" selection-end-column="49" />
+          <folding>
+            <marker date="1515987099003" expanded="true" signature="411:433" ph="..." />
+            <marker date="1515987099003" expanded="true" signature="557:592" ph="..." />
+            <marker date="1515987099003" expanded="true" signature="641:669" ph="..." />
+            <marker date="1515987099003" expanded="true" signature="779:811" ph="..." />
+            <marker date="1515987099003" expanded="true" signature="1397:1426" ph="..." />
+            <marker date="1515987099003" expanded="true" signature="1722:1761" ph="..." />
+            <marker date="1515987099003" expanded="true" signature="3106:3146" ph="..." />
+            <marker date="1515987099003" expanded="true" signature="3885:3912" ph="..." />
+            <marker date="1515987099003" expanded="true" signature="5848:5877" ph="..." />
+            <marker date="1515987099003" expanded="true" signature="7429:7460" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/zang api laravel/zang api laravel/AdminCallsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="11" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/import-contacts/import-contacts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="91" column="63" lean-forward="false" selection-start-line="91" selection-start-column="63" selection-end-line="91" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/past-campaigns/past-campaigns.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="112" column="12" lean-forward="false" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/settings/settings.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="113" column="10" lean-forward="false" selection-start-line="113" selection-start-column="10" selection-end-line="113" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/profile/profile.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="82" column="101" lean-forward="false" selection-start-line="82" selection-start-column="101" selection-end-line="82" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/crm-video/crm-video.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="113" column="16" lean-forward="false" selection-start-line="113" selection-start-column="16" selection-end-line="113" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -851,21 +1182,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.vue">
+    <entry file="file://$PROJECT_DIR$/src/router/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3094">
-          <caret line="182" column="0" lean-forward="false" selection-start-line="182" selection-start-column="0" selection-end-line="182" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="388">
+          <caret line="143" column="23" lean-forward="false" selection-start-line="143" selection-start-column="23" selection-end-line="143" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
+            <element signature="e#1084#1135#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="76" column="40" lean-forward="true" selection-start-line="76" selection-start-column="40" selection-end-line="76" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#37#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="14">
+          <caret line="43" column="49" lean-forward="false" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/gmail-contacts/gmail-contacts.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-275">
+          <caret line="144" column="18" lean-forward="false" selection-start-line="144" selection-start-column="18" selection-end-line="144" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -71,53 +71,44 @@
                     </div>
                 </div>
             </li>
+            <li>
+                <router-link to="/profile"><i class="pe-7s-user"></i>Profile</router-link>
+
+            </li>
             <li class="active">
-              <router-link to="/profile"><i class="pe-7s-user"></i>Profile</router-link>
-
-            </li>
-            <li>
-              <router-link to="/company"><i class="pe-7s-flag"></i>Company</router-link>
+                <router-link to="/company"><i class="pe-7s-flag"></i>Company</router-link>
 
             </li>
             <li >
-              <router-link to="/proposition"><i class="pe-7s-diamond"></i>Proposition</router-link>
+                <router-link to="/proposition"><i class="pe-7s-diamond"></i>Proposition</router-link>
             </li>
-            <li >
-               <router-link to="/import-contacts"><i class="pe-7s-id"></i>Import Contacts</router-link>
+            <li>
+                <router-link to="/import-contacts"><i class="pe-7s-id"></i>Import Contacts</router-link>
 
             </li>
             <li>
-               <router-link to="/crm-video"><i class="pe-7s-note2"></i>CRM-Video</router-link>
+                <router-link to="/gmail-contacts"><i class="pe-7s-id"></i> Contacts</router-link>
 
             </li>
             <li>
-              <a ><i class="pe-7s-menu"></i>Manage Lists</a>
-            </li>
-            <li>
-              <a ><i class="pe-7s-speaker"></i>Send Blast</a>
-            </li>
-            <li>
-              <a  data-toggle="collapse" aria-expanded="false">
-                              <i class="pe-7s-cash"></i>Transactions<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
-                          </a>
-              <ul id="transactions" class="nav nav-second collapse">
-                <li>
-                  <a ><i class="pe-7s-like"></i>Donations</a>
-                </li>
-                <li><a ><i class="pe-7s-cash"></i>Buy Credit </a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#Settings" data-toggle="collapse" aria-expanded="false">
-                              <i class="pe-7s-config"></i>Settings<span class="sub-nav-icon"> <i class="stroke-arrow"></i> </span>
-                          </a>
-              <ul id="Settings" class="nav nav-second collapse">
+                <router-link to="/crm-video"><i class="pe-7s-note2"></i>CRM-Video</router-link>
 
-                 <router-link to="/settings"><i class="pe-7s-help1"></i>Default</router-link>
+            </li>
+            <li>
+                <router-link to="/Manage-list"><i class="pe-7s-menu"></i>Manage Lists</router-link>
 
-              </ul>
+            </li>
+            <li>
+                <router-link to="/blast"><i class="pe-7s-speaker"></i>Send Blast</router-link>
+            </li>
+            <li>
+                <router-link to="/payment"><i class="pe-7s-cash"></i>Payment</router-link>
+            </li>
+            <li>
+                <router-link to="/settings"><i class="pe-7s-help1"></i>Default</router-link>
             </li>
         </ul>
+    </nav>
     </nav>
 </aside>
 <!-- End navigation-->
@@ -172,13 +163,31 @@
                         Edit Profile
                     </div>
                     <div class="panel-body">
-                        <form v-on:submit.prevent="updateProfile">
-                            <p v-if="errorhandle" class="errorhandle">Updated Sucessfuly</p>
+                        <form  v-on:submit.prevent="updateProfile">
+                            <p v-model="errorhandle" class="errorhandle">{{errorhandle}}</p>
 
-                            <div class="form-group"><label for="exampleInputName">Full Name</label> <input  v-model="founder.name" type="text" class="form-control" id="exampleInputName" placeholder="Full Name"></div>
-                              <div class="form-group"><label for="exampleInputEmail1">Email address</label> <input v-model="founder.email" type="email" class="form-control" id="exampleInputEmail1" placeholder="Email"></div>
-                              <div class="form-group"><label for="exampleInputName">Position</label> <input v-model="founder.position" type="text" class="form-control" id="exampleInputName" placeholder="position"></div>
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <p>
+                                <span v-show="errors.has('name')" class="text-danger">{{ errors.first('name') }}</span>
 
+                                <input  name="name"   v-validate="'required'" v-model="founder.name" type="text" class="form-control" id="name" placeholder="Full Name">
+                                </p>
+                            </div>
+                              <div class="form-group"><label for="exampleInputEmail1">Email address</label>
+                                  <p :class="{ 'control': true }">
+                                      <span v-show="errors.has('email')" class="text-danger">{{ errors.first('email') }}</span>
+
+                                      <input    v-validate="'required|email'" :class="{'input': true, 'is-danger': errors.has('email') }"  name="email"  v-model="founder.email"  class="form-control" id="exampleInputEmail1" placeholder="Email">
+                                  </p>
+                              </div>
+                              <div class="form-group">
+                                  <label for="exampleInputPosition">Position</label>
+                                 <p>
+                                  <span v-show="errors.has('position')" class="text-danger">{{ errors.first('position') }}</span>
+                                  <input v-validate="'required'" name="position" v-model="founder.position" type="text" class="form-control" id="exampleInputPosition" placeholder="position">
+                                 </p>
+                              </div>
                             <button type="submit" class="btn btn-default">Confirm</button>
                         </form>
                     </div>
